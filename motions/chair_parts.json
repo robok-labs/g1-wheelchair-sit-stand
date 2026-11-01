@@ -1,0 +1,805 @@
+{
+ "_notice": "骨組み。値は非公開で再現不可。© 2026 okakei. All rights reserved.",
+ "parts": [
+  {
+   "kind": "box",
+   "name": "seat",
+   "center": [
+    null,
+    null,
+    null
+   ],
+   "half": [
+    null,
+    null,
+    null
+   ],
+   "rotation": [
+    [
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     null,
+     null
+    ]
+   ]
+  },
+  {
+   "kind": "box",
+   "name": "backrest",
+   "center": [
+    null,
+    null,
+    null
+   ],
+   "half": [
+    null,
+    null,
+    null
+   ],
+   "rotation": [
+    [
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     null,
+     null
+    ]
+   ]
+  },
+  {
+   "kind": "box",
+   "name": "armrest_L",
+   "center": [
+    null,
+    null,
+    null
+   ],
+   "half": [
+    null,
+    null,
+    null
+   ],
+   "rotation": [
+    [
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     null,
+     null
+    ]
+   ]
+  },
+  {
+   "kind": "capsule",
+   "name": "arm_support_L_A",
+   "a": [
+    null,
+    null,
+    null
+   ],
+   "b": [
+    null,
+    null,
+    null
+   ],
+   "radius": null
+  },
+  {
+   "kind": "capsule",
+   "name": "arm_support_L_B",
+   "a": [
+    null,
+    null,
+    null
+   ],
+   "b": [
+    null,
+    null,
+    null
+   ],
+   "radius": null
+  },
+  {
+   "kind": "cylinder_y",
+   "name": "rear_wheel_L",
+   "center": [
+    null,
+    null,
+    null
+   ],
+   "radius": null,
+   "half": null
+  },
+  {
+   "kind": "cylinder_y",
+   "name": "handrim_L",
+   "center": [
+    null,
+    null,
+    null
+   ],
+   "radius": null,
+   "half": null
+  },
+  {
+   "kind": "cylinder_y",
+   "name": "caster_L",
+   "center": [
+    null,
+    null,
+    null
+   ],
+   "radius": null,
+   "half": null
+  },
+  {
+   "kind": "box",
+   "name": "fork_L_A",
+   "center": [
+    null,
+    null,
+    null
+   ],
+   "half": [
+    null,
+    null,
+    null
+   ],
+   "rotation": [
+    [
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     null,
+     null
+    ]
+   ]
+  },
+  {
+   "kind": "box",
+   "name": "fork_L_B",
+   "center": [
+    null,
+    null,
+    null
+   ],
+   "half": [
+    null,
+    null,
+    null
+   ],
+   "rotation": [
+    [
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     null,
+     null
+    ]
+   ]
+  },
+  {
+   "kind": "capsule",
+   "name": "caster_column_L",
+   "a": [
+    null,
+    null,
+    null
+   ],
+   "b": [
+    null,
+    null,
+    null
+   ],
+   "radius": null
+  },
+  {
+   "kind": "capsule",
+   "name": "seat_rail_L",
+   "a": [
+    null,
+    null,
+    null
+   ],
+   "b": [
+    null,
+    null,
+    null
+   ],
+   "radius": null
+  },
+  {
+   "kind": "capsule",
+   "name": "lower_frame_L",
+   "a": [
+    null,
+    null,
+    null
+   ],
+   "b": [
+    null,
+    null,
+    null
+   ],
+   "radius": null
+  },
+  {
+   "kind": "capsule",
+   "name": "back_frame_L",
+   "a": [
+    null,
+    null,
+    null
+   ],
+   "b": [
+    null,
+    null,
+    null
+   ],
+   "radius": null
+  },
+  {
+   "kind": "capsule",
+   "name": "handle_L",
+   "a": [
+    null,
+    null,
+    null
+   ],
+   "b": [
+    null,
+    null,
+    null
+   ],
+   "radius": null
+  },
+  {
+   "kind": "box",
+   "name": "grip_L",
+   "center": [
+    null,
+    null,
+    null
+   ],
+   "half": [
+    null,
+    null,
+    null
+   ],
+   "rotation": [
+    [
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     null,
+     null
+    ]
+   ]
+  },
+  {
+   "kind": "capsule",
+   "name": "front_upper_L",
+   "a": [
+    null,
+    null,
+    null
+   ],
+   "b": [
+    null,
+    null,
+    null
+   ],
+   "radius": null
+  },
+  {
+   "kind": "capsule",
+   "name": "front_lower_L",
+   "a": [
+    null,
+    null,
+    null
+   ],
+   "b": [
+    null,
+    null,
+    null
+   ],
+   "radius": null
+  },
+  {
+   "kind": "box",
+   "name": "hinge_L",
+   "center": [
+    null,
+    null,
+    null
+   ],
+   "half": [
+    null,
+    null,
+    null
+   ],
+   "rotation": [
+    [
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     null,
+     null
+    ]
+   ]
+  },
+  {
+   "kind": "box",
+   "name": "footplate_L",
+   "center": [
+    null,
+    null,
+    null
+   ],
+   "half": [
+    null,
+    null,
+    null
+   ],
+   "rotation": [
+    [
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     null,
+     null
+    ]
+   ]
+  },
+  {
+   "kind": "box",
+   "name": "armrest_R",
+   "center": [
+    null,
+    null,
+    null
+   ],
+   "half": [
+    null,
+    null,
+    null
+   ],
+   "rotation": [
+    [
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     null,
+     null
+    ]
+   ]
+  },
+  {
+   "kind": "capsule",
+   "name": "arm_support_R_A",
+   "a": [
+    null,
+    null,
+    null
+   ],
+   "b": [
+    null,
+    null,
+    null
+   ],
+   "radius": null
+  },
+  {
+   "kind": "capsule",
+   "name": "arm_support_R_B",
+   "a": [
+    null,
+    null,
+    null
+   ],
+   "b": [
+    null,
+    null,
+    null
+   ],
+   "radius": null
+  },
+  {
+   "kind": "cylinder_y",
+   "name": "rear_wheel_R",
+   "center": [
+    null,
+    null,
+    null
+   ],
+   "radius": null,
+   "half": null
+  },
+  {
+   "kind": "cylinder_y",
+   "name": "handrim_R",
+   "center": [
+    null,
+    null,
+    null
+   ],
+   "radius": null,
+   "half": null
+  },
+  {
+   "kind": "cylinder_y",
+   "name": "caster_R",
+   "center": [
+    null,
+    null,
+    null
+   ],
+   "radius": null,
+   "half": null
+  },
+  {
+   "kind": "box",
+   "name": "fork_R_A",
+   "center": [
+    null,
+    null,
+    null
+   ],
+   "half": [
+    null,
+    null,
+    null
+   ],
+   "rotation": [
+    [
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     null,
+     null
+    ]
+   ]
+  },
+  {
+   "kind": "box",
+   "name": "fork_R_B",
+   "center": [
+    null,
+    null,
+    null
+   ],
+   "half": [
+    null,
+    null,
+    null
+   ],
+   "rotation": [
+    [
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     null,
+     null
+    ]
+   ]
+  },
+  {
+   "kind": "capsule",
+   "name": "caster_column_R",
+   "a": [
+    null,
+    null,
+    null
+   ],
+   "b": [
+    null,
+    null,
+    null
+   ],
+   "radius": null
+  },
+  {
+   "kind": "capsule",
+   "name": "seat_rail_R",
+   "a": [
+    null,
+    null,
+    null
+   ],
+   "b": [
+    null,
+    null,
+    null
+   ],
+   "radius": null
+  },
+  {
+   "kind": "capsule",
+   "name": "lower_frame_R",
+   "a": [
+    null,
+    null,
+    null
+   ],
+   "b": [
+    null,
+    null,
+    null
+   ],
+   "radius": null
+  },
+  {
+   "kind": "capsule",
+   "name": "back_frame_R",
+   "a": [
+    null,
+    null,
+    null
+   ],
+   "b": [
+    null,
+    null,
+    null
+   ],
+   "radius": null
+  },
+  {
+   "kind": "capsule",
+   "name": "handle_R",
+   "a": [
+    null,
+    null,
+    null
+   ],
+   "b": [
+    null,
+    null,
+    null
+   ],
+   "radius": null
+  },
+  {
+   "kind": "box",
+   "name": "grip_R",
+   "center": [
+    null,
+    null,
+    null
+   ],
+   "half": [
+    null,
+    null,
+    null
+   ],
+   "rotation": [
+    [
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     null,
+     null
+    ]
+   ]
+  },
+  {
+   "kind": "capsule",
+   "name": "front_upper_R",
+   "a": [
+    null,
+    null,
+    null
+   ],
+   "b": [
+    null,
+    null,
+    null
+   ],
+   "radius": null
+  },
+  {
+   "kind": "capsule",
+   "name": "front_lower_R",
+   "a": [
+    null,
+    null,
+    null
+   ],
+   "b": [
+    null,
+    null,
+    null
+   ],
+   "radius": null
+  },
+  {
+   "kind": "box",
+   "name": "hinge_R",
+   "center": [
+    null,
+    null,
+    null
+   ],
+   "half": [
+    null,
+    null,
+    null
+   ],
+   "rotation": [
+    [
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     null,
+     null
+    ]
+   ]
+  },
+  {
+   "kind": "box",
+   "name": "footplate_R",
+   "center": [
+    null,
+    null,
+    null
+   ],
+   "half": [
+    null,
+    null,
+    null
+   ],
+   "rotation": [
+    [
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     null,
+     null
+    ]
+   ]
+  },
+  {
+   "kind": "capsule",
+   "name": "cross_A",
+   "a": [
+    null,
+    null,
+    null
+   ],
+   "b": [
+    null,
+    null,
+    null
+   ],
+   "radius": null
+  },
+  {
+   "kind": "capsule",
+   "name": "cross_B",
+   "a": [
+    null,
+    null,
+    null
+   ],
+   "b": [
+    null,
+    null,
+    null
+   ],
+   "radius": null
+  }
+ ]
+}

@@ -1,0 +1,12 @@
+*.npz
+*.pt
+*.usd
+*.usda
+*.usdc
+*.mp4
+*.png
+assets/out/
+__pycache__/
+*.pyc
+logs/
+!docs/*.png

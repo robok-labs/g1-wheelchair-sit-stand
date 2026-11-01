@@ -1,0 +1,216 @@
+{
+ "_notice": "骨組み。値は非公開で再現不可。© 2026 okakei. All rights reserved.",
+ "pose_feet_on_floor": {
+  "description": "Formal seated pose: seated hold, feet flat on the floor, trunk vertical, waist joints 0, hands on the thighs.",
+  "frame": "wheelchair task frame (+x = facing direction)",
+  "use": "Reference generation uses joint_pos_target_rad with the pelvis at pelvis_initial_pos and identity orientation. joint_pos_measured_rad and pelvis_pos are the result physically held under nominal PD stiffness.",
+  "acquisition": [
+   "waist joints 0, pelvis identity orientation (trunk vertical, facing +x)",
+   "leg IK: ankle |y| and z fixed on the floor, foot flat, shank vertical; the thigh slope follows from the seat height",
+   "arm IK: wrist on the thigh near the knee, palm down, upper arm as vertical as reachable (soft term)",
+   "pelvis x scanned front to back at fixed z; the rearmost x with thigh contact force below a threshold, plus a margin",
+   "hold at nominal stiffness with the IK pose as target: settle, then hold; drift measured over the hold (durations withheld)"
+  ],
+  "joint_order": [
+   "left_hip_pitch_joint",
+   "right_hip_pitch_joint",
+   "waist_yaw_joint",
+   "left_hip_roll_joint",
+   "right_hip_roll_joint",
+   "waist_roll_joint",
+   "left_hip_yaw_joint",
+   "right_hip_yaw_joint",
+   "waist_pitch_joint",
+   "left_knee_joint",
+   "right_knee_joint",
+   "left_shoulder_pitch_joint",
+   "right_shoulder_pitch_joint",
+   "left_ankle_pitch_joint",
+   "right_ankle_pitch_joint",
+   "left_shoulder_roll_joint",
+   "right_shoulder_roll_joint",
+   "left_ankle_roll_joint",
+   "right_ankle_roll_joint",
+   "left_shoulder_yaw_joint",
+   "right_shoulder_yaw_joint",
+   "left_elbow_joint",
+   "right_elbow_joint",
+   "left_wrist_roll_joint",
+   "right_wrist_roll_joint",
+   "left_wrist_pitch_joint",
+   "right_wrist_pitch_joint",
+   "left_wrist_yaw_joint",
+   "right_wrist_yaw_joint"
+  ],
+  "joint_pos_target_rad": {
+   "left_hip_pitch_joint": null,
+   "right_hip_pitch_joint": null,
+   "waist_yaw_joint": null,
+   "left_hip_roll_joint": null,
+   "right_hip_roll_joint": null,
+   "waist_roll_joint": null,
+   "left_hip_yaw_joint": null,
+   "right_hip_yaw_joint": null,
+   "waist_pitch_joint": null,
+   "left_knee_joint": null,
+   "right_knee_joint": null,
+   "left_shoulder_pitch_joint": null,
+   "right_shoulder_pitch_joint": null,
+   "left_ankle_pitch_joint": null,
+   "right_ankle_pitch_joint": null,
+   "left_shoulder_roll_joint": null,
+   "right_shoulder_roll_joint": null,
+   "left_ankle_roll_joint": null,
+   "right_ankle_roll_joint": null,
+   "left_shoulder_yaw_joint": null,
+   "right_shoulder_yaw_joint": null,
+   "left_elbow_joint": null,
+   "right_elbow_joint": null,
+   "left_wrist_roll_joint": null,
+   "right_wrist_roll_joint": null,
+   "left_wrist_pitch_joint": null,
+   "right_wrist_pitch_joint": null,
+   "left_wrist_yaw_joint": null,
+   "right_wrist_yaw_joint": null
+  },
+  "joint_pos_measured_rad": {
+   "left_hip_pitch_joint": null,
+   "right_hip_pitch_joint": null,
+   "waist_yaw_joint": null,
+   "left_hip_roll_joint": null,
+   "right_hip_roll_joint": null,
+   "waist_roll_joint": null,
+   "left_hip_yaw_joint": null,
+   "right_hip_yaw_joint": null,
+   "waist_pitch_joint": null,
+   "left_knee_joint": null,
+   "right_knee_joint": null,
+   "left_shoulder_pitch_joint": null,
+   "right_shoulder_pitch_joint": null,
+   "left_ankle_pitch_joint": null,
+   "right_ankle_pitch_joint": null,
+   "left_shoulder_roll_joint": null,
+   "right_shoulder_roll_joint": null,
+   "left_ankle_roll_joint": null,
+   "right_ankle_roll_joint": null,
+   "left_shoulder_yaw_joint": null,
+   "right_shoulder_yaw_joint": null,
+   "left_elbow_joint": null,
+   "right_elbow_joint": null,
+   "left_wrist_roll_joint": null,
+   "right_wrist_roll_joint": null,
+   "left_wrist_pitch_joint": null,
+   "right_wrist_pitch_joint": null,
+   "left_wrist_yaw_joint": null,
+   "right_wrist_yaw_joint": null
+  },
+  "waist_target_rad": {
+   "waist_yaw_joint": null,
+   "waist_roll_joint": null,
+   "waist_pitch_joint": null
+  },
+  "pelvis_initial_pos": [
+   null,
+   null,
+   null
+  ],
+  "pelvis_pos": [
+   null,
+   null,
+   null
+  ],
+  "pelvis_quat_wxyz": [
+   null,
+   null,
+   null,
+   null
+  ],
+  "pelvis_rpy_deg": [
+   null,
+   null,
+   null
+  ],
+  "torso_rpy_deg": [
+   null,
+   null,
+   null
+  ],
+  "segments": {
+   "left": {
+    "thigh_below_horizontal_deg": null,
+    "shank_from_vertical_deg": null,
+    "knee_inner_angle_deg": null,
+    "trunk_thigh_angle_deg": null,
+    "upper_arm_from_vertical_deg": null,
+    "elbow_inner_angle_deg": null,
+    "forearm_below_horizontal_deg": null,
+    "foot_rpy_deg": [
+     null,
+     null,
+     null
+    ],
+    "palm_normal_world": [
+     null,
+     null,
+     null
+    ]
+   },
+   "right": {
+    "thigh_below_horizontal_deg": null,
+    "shank_from_vertical_deg": null,
+    "knee_inner_angle_deg": null,
+    "trunk_thigh_angle_deg": null,
+    "upper_arm_from_vertical_deg": null,
+    "elbow_inner_angle_deg": null,
+    "forearm_below_horizontal_deg": null,
+    "foot_rpy_deg": [
+     null,
+     null,
+     null
+    ],
+    "palm_normal_world": [
+     null,
+     null,
+     null
+    ]
+   }
+  },
+  "ankle_pos": {
+   "left": [
+    null,
+    null,
+    null
+   ],
+   "right": [
+    null,
+    null,
+    null
+   ]
+  },
+  "wrist_pos": {
+   "left": [
+    null,
+    null,
+    null
+   ],
+   "right": [
+    null,
+    null,
+    null
+   ]
+  },
+  "knee_pos": {
+   "left": [
+    null,
+    null,
+    null
+   ],
+   "right": [
+    null,
+    null,
+    null
+   ]
+  },
+  "note": "実測値は非公開。数値は全て null の雛形。"
+ }
+}
